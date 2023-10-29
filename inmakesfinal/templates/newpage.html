@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+newpage
+{%endblock%}
+
+{% block content %}
+<div class="container pt-5">
+<div class="card">
+  <div class="card-header">
+    D-BANK
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Bank Account Register</h5>
+    <p class="card-text">To create a bank account click below.</p>
+    <a href="{% url 'bankapp:form' %}" class="btn btn-primary">Click</a>
+  </div>
+</div>
+ </div>
+{%endblock%}
+
